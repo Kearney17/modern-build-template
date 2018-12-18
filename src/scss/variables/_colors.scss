@@ -1,0 +1,26 @@
+@import "_theme.scss";
+
+// scheme
+$color-primary: $curiousblue;
+$color-secondary: $prussianblue;
+$color-complimentry: $darktangerine;
+$color-copy: $bluewhale;
+$color-emphasis: $elephant;
+
+// context
+$color-danger: $danger;
+$color-warning: $warning;
+$color-success: $success;
+$color-info: $info;
+$color-disabled: $disabled;
+
+// grayscale
+$color-shade-800: $black;
+$color-shade-700: $charcoal;
+$color-shade-600: $dimgrey;
+$color-shade-500: $suvagrey;
+$color-shade-400: $alto;
+$color-shade-300: $smog;
+$color-shade-200: $whitesmoke;
+$color-shade-100: $white;
+

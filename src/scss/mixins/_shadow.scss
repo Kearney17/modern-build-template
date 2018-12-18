@@ -1,0 +1,14 @@
+@mixin box-shadow($direction){
+	$top:1px !default;
+	$left:0px !default;
+
+	@if ($direction == right) {
+		$top: 0;
+		$left: 1px;
+	} @else if ($direction == left) {
+		$top: 0;
+		$left: -1px;
+	}
+	
+	box-shadow: $top $left 3px rgba($color-shade-800,.2);
+}

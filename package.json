@@ -1,0 +1,31 @@
+{
+ "name": "navigation",
+ "version": "1.0.0",
+ "description": "sidebar navigation",
+ "main": "src/index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": ""
+ },
+ "author": "Andrew Kearney",
+ "license": "ISC",
+ "devDependencies": {
+  "ansi-colors": "^3.2.3",
+  "browser-sync": "^2.26.3",
+  "delete": "^1.1.0",
+  "gulp": "^4.0.0",
+  "gulp-autoprefixer": "^6.0.0",
+  "gulp-clean-css": "^4.0.0",
+  "gulp-load-plugins": "^1.5.0",
+  "gulp-rename": "^1.4.0",
+  "gulp-sass": "^4.0.2",
+  "gulp-sourcemaps": "^2.6.4",
+  "gulp-task-listing": "^1.1.0",
+  "gulp-uglify-es": "^1.0.4",
+  "yargs": "^12.0.5"
+ },
+ "dependencies": {}
+}

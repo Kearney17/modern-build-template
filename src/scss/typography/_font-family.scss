@@ -1,0 +1,14 @@
+@include encapsulate {
+	* {
+		font-family: $font-copy;
+		color: $color-copy;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $font-heading;
+	}
+
+	button {
+		font-family: $font-ui;
+	}
+}
