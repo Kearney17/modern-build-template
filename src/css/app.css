@@ -1,5 +1,6 @@
-.theme-telarus {
-  font-size: 16px; }
+.theme-name {
+  font-size: 16px;
+  background: #ebebeb; }
 
 html, body {
   height: 100vh;
@@ -30,21 +31,12 @@ main {
           flex: 1 1 auto;
   height: 100%; }
 
-.theme-telarus.main-navigation,
-.theme-telarus .main-navigation {
-  background: #004876;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
-
-.theme-telarus * {
+.theme-name * {
   font-family: "proxima-nova", Tahoma, sans-serif;
   color: #122630; }
 
-.theme-telarus h1, .theme-telarus h2, .theme-telarus h3, .theme-telarus h4, .theme-telarus h5, .theme-telarus h6 {
+.theme-name h1, .theme-name h2, .theme-name h3, .theme-name h4, .theme-name h5, .theme-name h6 {
   font-family: "Merriweather", Georgia, serif; }
 
-.theme-telarus button {
+.theme-name button {
   font-family: "Oswald", Arial, sans-serif; }
-
-.app-container {
-  background: #ebebeb; }

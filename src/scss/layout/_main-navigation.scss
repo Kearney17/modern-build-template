@@ -1,7 +1,0 @@
-@include encapsulate(){
-	&.main-navigation,
-	& .main-navigation {
-		background: $color-secondary;
-		@include box-shadow('right');
-	}
-}
