@@ -3,7 +3,7 @@ module.exports = () => {
 		build = `./dist`;
 
 	let config = {
-		app: 'nav.localhost.com',
+		app: 'app.localhost.com',
 		build: build,
 		css: {
 			compiled: `${src}/css`,
